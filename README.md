@@ -1,7 +1,11 @@
 # PythonCourse
 UdemyのPythonマスターコースのソースです
 
-（https://www.udemy.com/course/python-python）
+
+
+https://www.udemy.com/course/python-python/?couponCode=26A7E30826E22400B572
+
+
 
 Pythonの基礎文法から標準ライブラリ、numpy, SQLAlchemyなどの代表的なライブラリを学ぶことができます。
 格安クーポンのリンクは以下ページにございますのでご利用下さい。

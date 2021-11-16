@@ -1,0 +1,29 @@
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)s-%(name)s-%(levelname)s-%(message)s'
+handlers:
+  rotating_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: simple
+    filename: logs/rotation_yaml.log
+    maxBytes: 1000
+    backupCount: 5
+    encoding: utf-8
+  timed_rotating_handler:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: INFO
+    filename: logs/timed_rotation_yaml.log
+    formatter: simple
+    when: S
+    interval: 4
+    backupCount: 5
+loggers:
+  sampleLogger:
+    level: DEBUG
+    handlers: [rotating_handler, timed_rotating_handler]
+    propagate: no
+root:
+  level: DEBUG
+  handlers: [rotating_handler, timed_rotating_handler]

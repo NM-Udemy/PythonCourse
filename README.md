@@ -28,9 +28,13 @@ Pythonの基本文法です。
 
 pythonのクラス、メソッドの定義、withまでのソースコードです。
 
-### 04_excersize(01_03)
+### 04_hint
 
-01_basic, 02_function, 03_classでの演習問題です
+Pythonのヒント句の使用方法について解説します。
+
+### 05_package
+
+Pythonのパッケージ管理について解説します。
 
 ### 05_std_library
 
